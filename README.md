@@ -22,7 +22,7 @@ The 'Preview Scene' extension attempts to be easy to understand, allow for bette
 ![Preview Scene Screenshot](Documentation~/PreviewSceneScreenshot.png)
 
 ## Getting Started
-Simply place the 'PreviewScene' directory anywhere in Unity 'Assets'. A pull request converting the repository to package format would be appreciated.
+Place the 'PreviewScene' directory anywhere in Unity 'Assets' and make sure the code is compiled editor-only (e.g. via 'Editor' folder oder ASMDEF). If you would like to use the extension as a package, please open a pull request which converts it to the correct format and makes use of the 'Samples' feature, thank you!
 
 To see the extension in action, open the menu 'Nementic/Examples/Preview Scene'. The 'PreviewSceneExample' demonstrates how PreviewScene can be used within IMGUI. 'PreviewSceneExample_UITK' shows an implementation using UI Toolkit.
 
