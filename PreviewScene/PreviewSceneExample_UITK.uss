@@ -1,0 +1,19 @@
+#Buttons 
+{
+	flex-direction: row;
+}
+
+#Previews
+{
+	flex-direction: column;
+}
+
+#Previews > VisualElement
+{
+	flex-direction: row;
+}
+
+#Previews > VisualElement > Image
+{
+	padding: 2px;
+}
